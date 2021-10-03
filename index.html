@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceBank</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="logo">
+       <img src="imagem/logo.svg">
+      </div>
+        
+      <div class="login-bg">
+        <div class="box-cadastro">
+          <div class="caixa-cadastro" id="cadastro-link">
+            <secation class="cadastro">
+              <h2>Bem vindo ao SpaceBank</h2>
+
+              <div class="Login"><p>Ja possui uma conta? <a href="login.html" id="login">Login</a></p></div>
+
+              <form action="">
+                <div class="titulo-campo">
+                  <label for="nome" class="titulo-form" >Nome Completo </label>
+                  <input type="text" name="nome" class="campo" id="nome" />
+                </div>
+
+                <div class="titulo-campo">
+                  <label for="ano-nasceu" class="titulo-form" >Data De Nascimento: </label>
+                  <input
+                    type="date"
+                    name="ano-nasceu"
+                    class="ano"
+                    id="ano-nasceu"
+                  />
+                </div>
+
+                <div class="titulo-sexo">
+                  <input type="radio" name="feminino" id="feminino" />
+                  <label for="feminino">Feminino </label>
+
+                  <input type="radio" name="masculino" id="masculino" />
+                  <label for="masculino">Masculino </label>
+                </div>
+
+                <div class="titulo-campo">
+                  <label for="email" class="titulo-form" >Email </label>
+                  <input type="text" name="email" class="campo" id="email" />
+                </div>
+
+                <div class="titulo-campo">
+                  <label for="password" class="titulo-form" >Senha</label>
+                  <input
+                    type="password"
+                    name="password"
+                    class="campo"
+                    id="password"
+                  />
+                </div>
+                <div class="titulo-campo">
+                  <label for="password" class="titulo-form" >Repita a Senha</label>
+                  <input
+                    type="password"
+                    name="password"
+                    class="campo"
+                    id="password"
+                  />
+                </div>
+
+                 <button class="submit"><a href="#"> Cadastrar </a></button>
+              </form>
+            </secation>
+          </div>
+        </div>
+      </div>
+
+      <div class="ultimo-tex">2021 Copyright © SpaceBank · A Place For Everyone</div>
+
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+    </div>
+  </body>
+</html>
